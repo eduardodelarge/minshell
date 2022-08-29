@@ -1,0 +1,31 @@
+função para ver se ter path
+	se tem '/'
+verificar se cmd é builtin
+	lista das builtins
+
+ok echo - print tela
+ok pwd - getcwd
+	não usa envp
+ok env - ler envp
+ok cd
+	opendir
+	chdir
+	closedir
+ok exit
+ok export
+	variaveis só pode ter letras, números e underscore
+	não iniciar com número
+	https://stackoverflow.com/questions/2821043/allowed-characters-in-linux-environment-variable-names#:~:text=So%20names%20may%20contain%20any,not%20begin%20with%20a%20digit.
+ok unset
+
+19/08
+	redir em todos os builtins
+	ok aplicar redirectionamento no exec normal
+	refatorar parsing e programa no geral
+	fazer pipe funcionar
+	ok execve
+		exit status
+	ok init pipeline exec
+
+exec_cmd
+	// isattty
